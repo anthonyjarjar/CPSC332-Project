@@ -1,8 +1,8 @@
 <?php
-$servername = "127.0.0.1"; // Use "127.0.0.1" instead of "localhost" for XAMPP
-$username = "root";         // Your MySQL username
-$password = "password";             // Your MySQL password
-$dbname = "UniversityDB";   // Your database name
+$servername = "127.0.0.1"; // address for host
+$username = "root";         //  MySQL username
+$password = "password";      // MySQL password
+$dbname = "UniversityDB";   //  database name
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
